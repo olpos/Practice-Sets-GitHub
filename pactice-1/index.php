@@ -29,3 +29,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
      $areaSquared = $s * ($s - $a) * ($s - $b) * ($s - $c);
      
      if ($areaSquared > 0) {
+        // Manual square root calculation using exponentiation
+        $area = $areaSquared ** 0.5;
+        echo "<p>Triangle Area: " . number_format($area, 2) . " square units</p>";
+    } else {
+        echo "<p style='color: red;'>Invalid triangle! Please check the sides.</p>";
+    }
+}
+?>
+
+</body>
+</html>
+
+        
