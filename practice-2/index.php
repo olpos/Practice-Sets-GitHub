@@ -6,3 +6,8 @@
     <title>Fruits Array</title>
 </head>
 <body>
+<h2>List of Fruits</h2>
+
+<?php
+// Creating an array of fruits
+$fruits = ["Apple", "Banana", "Cherry", "Mango", "Grapes"];
