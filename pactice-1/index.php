@@ -23,4 +23,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $c = $_POST['side3'];
     
      // Calculate semi-perimeter
-     $s = ($a + $b + $c) / 2;
+     $s = ($a + $b + $c) / 2;  
+     
+     // Calculate area using Heron's formula (without sqrt function)
+     $areaSquared = $s * ($s - $a) * ($s - $b) * ($s - $c);
+     
+     if ($areaSquared > 0) {
