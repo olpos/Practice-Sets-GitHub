@@ -19,4 +19,20 @@ $matrix = [
 echo "<h3>Even Numbers:</h3>";
 echo "<ul>";
 
+// Loop through the matrix using while loop
+$row = 0;
+while ($row < count($matrix)) {
+    $col = 0;
+    while ($col < count($matrix[$row])) {
+        if ($matrix[$row][$col] % 2 == 0) { // Check if even
+            echo "<li>" . $matrix[$row][$col] . "</li>";
+        }
+        $col++;
+    }
+    $row++;
+}
+
+echo "</ul>";
+?>
+
 </body>
