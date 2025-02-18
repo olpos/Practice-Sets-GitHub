@@ -11,3 +11,11 @@
 <?php
 // Creating an array of fruits
 $fruits = ["Apple", "Banana", "Cherry", "Mango", "Grapes"];
+
+// Displaying the fruits using a for loop
+echo "<h3>Using For Loop:</h3>";
+echo "<ol>";
+for ($i = 0; $i < count($fruits); $i++) {
+    echo "<li>" . $fruits[$i] . "</li>";
+}
+echo "</ol>";
