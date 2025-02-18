@@ -21,3 +21,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $a = $_POST['side1'];
     $b = $_POST['side2'];
     $c = $_POST['side3'];
+    
+     // Calculate semi-perimeter
+     $s = ($a + $b + $c) / 2;
