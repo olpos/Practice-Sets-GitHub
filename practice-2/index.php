@@ -30,3 +30,6 @@ while ($x < count($fruits)) {
 }
 echo "</ol>";
 ?>
+
+</body>
+</html>
