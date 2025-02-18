@@ -19,3 +19,14 @@ for ($i = 0; $i < count($fruits); $i++) {
     echo "<li>" . $fruits[$i] . "</li>";
 }
 echo "</ol>";
+
+// Displaying the fruits using a while loop
+echo "<h3>Using While Loop:</h3>";
+echo "<ol>";
+$x = 0;
+while ($x < count($fruits)) {
+    echo "<li>" . $fruits[$x] . "</li>";
+    $x++;
+}
+echo "</ol>";
+?>
