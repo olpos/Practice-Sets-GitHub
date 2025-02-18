@@ -15,3 +15,9 @@
     Side 3: <input type="number" step="any" name="side3" required><br><br>
     <button type="submit" name="calculate">Calculate Area</button>
 </form>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $a = $_POST['side1'];
+    $b = $_POST['side2'];
+    $c = $_POST['side3'];
