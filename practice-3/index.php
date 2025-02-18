@@ -7,7 +7,14 @@
 </head>
 <body> 
 
-
 <h2>Even Numbers from Matrix</h2>
+
+<?php
+// Given matrix
+$matrix = [
+    [12, 23, 34],
+    [45, 55, 62],
+    [71, 84, 90]
+];
 
 </body>
